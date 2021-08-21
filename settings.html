@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Style+Script&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!-- slick -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>KookBook</title>
+  </head>
+  <body>
+    
+    
+
+    <!-- header -->
+    <section class="header border-bottom shadow py-3">
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 m-auto">
+                <button class="btn">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a href="" class="text-dark text-decoration-none">
+                    <span class="fs-14 va-middle">Toni's </span> <span class="fs-25 fw-bold">KOOKBOOK</span>
+                </a>
+            </div>
+            <div class="col-10 m-auto">
+                <div class="text-end">
+                    <a class="btn btn-danger px-3 rounded-pill" href="">
+                        Add A Recipe
+                    </a>
+                    <form action="" class="d-inline">
+                        <input type="text" class="inputFormSearch" placeholder="Search" name="" id="">
+                    </form>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+    <!-- header -->
+
+    <!-- main body -->
+    <section class="mainBody py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 sidebar px-2 h-100 border-right py-2">
+                    <button class="btn btn-closer">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    <ul class="list-unstyled m-0 p-0 sidebarMenu">
+                        <li>
+                            <a href="index.html" class="text-dark text-decoration-none fs-18"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="all-recipies.html" class="text-dark text-decoration-none fs-18"><i class="fa fa-utensils"></i> All Recipe</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none fs-18 hasChild"><i class="fa fa-utensil-spoon"></i> All Recipe <i class="fa fa-angle-down va-middle"></i></a>
+                            <div class="sidebar-submenu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="" class="text-dark text-decoration-none">Meat</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-dark text-decoration-none">Fish</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-dark text-decoration-none">Vegetarian</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-dark text-decoration-none">Create New</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                         <li>
+                            <a href="" class="text-dark text-decoration-none fs-18"><i class="fa fa-coffee"></i> Ocassion</a>
+                        </li>
+                         <li>
+                            <a href="" class="text-dark text-decoration-none fs-18"><i class="fa fa-users"></i> Shared With Me</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="create-recipe.html" class="text-dark text-decoration-none fs-18"><i class="fa fa-plus"></i> Add New Recipe</a>
+                        </li>
+                        <li>
+                         <a href="" class="text-dark text-decoration-none fs-18 hasChild"><i class="fa fa-envelope"></i> Request New Recipe <i class="fa fa-angle-down va-middle"></i></a>
+                         <div class="sidebar-submenu">
+                             <ul class="list-unstyled">
+                                 <li>
+                                     <a href="unanswered-question.html" class="text-dark text-decoration-none">Unanswered (<span class="unanswered">2</span>)</a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li>
+                        <a href="settings.html" class="text-dark text-decoration-none fs-18"><i class="fa fa-cogs"></i> Settings</a>
+                    </li>
+                    </ul>
+                 </div>
+     
+                 <div class="col-md-10 px-2 h-100 py-2">
+                    <div class="container">
+                        <p class="fs-20 mb-0 fw-bold">
+                            SETTINGS
+                        </p>
+                        <div class="line bg-dark"></div>
+
+                        <table class="table mt-4">
+                            <tr>
+                                <td class="border-0 fs-bold">
+                                    Registered email 
+                                </td>
+                                <td class="border-0 fs-bold">
+                                    lottakholmberg@gmail.com   
+                                </td>
+                                <td class="border-0 fs-bold">
+                                     <a href="" class="text-dark text-decoration-none">
+                                        Change email..
+                                     </a> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-0 fs-bold">
+                                    Password  
+                                </td>
+                                <td class="border-0 fs-bold">
+                                   <span class="password"> *** *** ***</span>
+                                </td>
+                                <td class="border-0 fs-bold">
+                                     <a href="" class="text-dark text-decoration-none">
+                                        Change password
+                                     </a> 
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- main body -->
+
+
+    <!-- jquery -->
+    <script src="jquery/jquery.min.js"></script>
+   
+    <!-- bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick -->
+    <script src="slick/slick.min.js"></script>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
